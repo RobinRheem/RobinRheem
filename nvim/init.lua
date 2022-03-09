@@ -166,6 +166,8 @@ map('n', '<leader>m', [[<cmd>lua require('telescope.builtin').man_pages()<CR>]],
 map('n', '<leader>th', [[<cmd>lua require('telescope.builtin').help_tags()<CR>]], { noremap = true, silent = true })
 map('n', '<leader>ta', [[<cmd>lua require('telescope.builtin').tags()<CR>]], { noremap = true, silent = true })
 map('n', '<leader>fb', [[<cmd>lua require('telescope').extensions.file_browser.file_browser()<CR>]], { noremap = true })
+map('n', '<leader>bp', [[<cmd>bprevious<CR>]], { noremap = true })
+map('n', '<leader>bn', [[<cmd>bnext<CR>]], { noremap = true })
 -- Trouble keymaps
 map("n", "<leader>xx", "<cmd>Trouble<cr>", {silent = true, noremap = true})
 map("n", "<leader>xw", "<cmd>Trouble workspace_diagnostics<cr>", {silent = true, noremap = true})
