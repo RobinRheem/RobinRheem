@@ -77,6 +77,12 @@ vim.cmd [[colorscheme onedark]]
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
 
+-- Set word wrap limit
+vim.o.wrap = true
+
+-- Set linebreak so it breaks on words
+vim.o.linebreak = true
+
 --Set statusbar
 require('lualine').setup {
   options = {
