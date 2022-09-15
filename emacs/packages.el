@@ -50,3 +50,5 @@
 ;(unpin! t)
 
 (package! tldr)
+
+(package! org-pomodoro)
