@@ -81,4 +81,8 @@
   (setq org-agenda-files (directory-files-recursively "~/org/" "\.org$")))
 
 (after! org-journal
-  (setq org-journal-file-format "%Y%m%d.org"))
+  (setq org-journal-file-format "%Y%m%d.org"
+        org-journal-enable-agenda-integration t))
+
+(after! dap-mode
+  (setq dap-python-debugger 'debugpy))

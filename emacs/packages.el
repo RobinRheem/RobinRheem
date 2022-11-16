@@ -51,4 +51,4 @@
 
 (package! tldr)
 
-(package! org-pomodoro)
+(package! org-drill)
