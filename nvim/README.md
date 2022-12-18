@@ -30,4 +30,6 @@ What do I want in an IDE?
 * Project management
     * Can open each project and manage them here and there with a separate workspace for each
     * Save sessions/snapshots for each project
-
+* Git
+    * Diff navigator
+    * Conflict resolver
