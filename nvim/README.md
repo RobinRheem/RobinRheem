@@ -18,6 +18,10 @@ What do I want in an IDE?
     * Go to documentation
     * Go to usages
     * Code snippet library
+* Testing
+    * Running a single test case
+    * Running a file filled with test cases
+    * Running all tests
 * Debugger
     * Just a functioning debugger for any language would be fine! Step in, step over, change variable values as it goes, etc.
 * REPL
