@@ -10,7 +10,7 @@ What do I want in an IDE?
     * Vim commands
     * Projects and sessions
 * Code navigation
-    * History: Jumping back and forth between functions and variable usages and all the jumping's in history!
+    * History: Jumping back and forth between functions and variable usages and all the jumping's in history! <cmd-[> and <cmd-]> for going through navigation history --> Got some hints from jumps <C-o> and <C-i>
     * Filename/module rename/refactor
     * Local variable rename/refactor
     * Function rename/refactor with usage references
@@ -26,6 +26,7 @@ What do I want in an IDE?
     * Just a functioning debugger for any language would be fine! Step in, step over, change variable values as it goes, etc.
 * REPL
     * A REPL for each language and automatically loads the file/project that I'm dealing with
+    * Has a shortcut to run code under cursor right into the REPL
 * Writing
     * Spell checker
     * Dictionary
@@ -36,4 +37,4 @@ What do I want in an IDE?
     * Save sessions/snapshots for each project
 * Git
     * Diff navigator
-    * Conflict resolver
+    * Conflict resolver like Intellij
