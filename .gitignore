@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+# Doom Emacs
+emacs/custom.el
+
+# Neovim
+.luarc.json
