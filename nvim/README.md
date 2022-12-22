@@ -24,6 +24,7 @@ What do I want in an IDE?
     * Running all tests
 * Debugger
     * Just a functioning debugger for any language would be fine! Step in, step over, change variable values as it goes, etc.
+    * Run a REPL that I can choose when the DAP debugger comes on
 * REPL
     * A REPL for each language and automatically loads the file/project that I'm dealing with
     * Has a shortcut to run code under cursor right into the REPL
