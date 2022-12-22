@@ -52,3 +52,5 @@
 (package! tldr)
 
 (package! org-drill)
+
+(package! with-venv)

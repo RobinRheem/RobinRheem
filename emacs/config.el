@@ -84,5 +84,14 @@
   (setq org-journal-file-format "%Y%m%d.org"
         org-journal-enable-agenda-integration t))
 
-(after! dap-mode
-  (setq dap-python-debugger 'debugpy))
+(use-package dap-mode
+  :after lsp-mode
+  :commands dap-debug
+  :hook ((python-mode . dap-ui-mode) (python-mode . dap-mode))
+  :config
+  (require 'dap-python)
+  (setq dap-python-debugger 'debugpy)
+  (defun dap-python--pyenv-executable-find (command)
+    (with-venv (executable-find "python")))
+  (add-hook 'dap-stopped-hook
+             (lambda (arg) (call-interactively #'dap-hydra))))
